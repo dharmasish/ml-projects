@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+
+    {% if message %}
+        <p>Prediction</p>
+        <p>{{ message }}</p>
+    {% endif %}
+    <p>enter sepal[length width] petal [length width]</p>
+    <form action="" method="post">
+        <p>
+            <label for="sepal">Sepal Data</label>
+            <input type="text" name="sepal">
+        </p>
+        <p>
+            <label for="petal">Petal</label>
+            <input type="text" name="petal">
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+
+</body>
+</html>
